@@ -202,26 +202,29 @@ end
 -- Create a basic config.json file and saves it.
 function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
-  config = {
+ config = {
     enabled_plugins = {
-    "onservice",
-    "inrealm",
-    "ingroup",
-    "inpm",
-    "banhammer",
-    "stats",
-    "anti_spam",
-    "owners",
-    "arabic_lock",
-    "set",
-    "get",
-    "broadcast",
-    "download_media",
-    "invite",
-    "all",
-    "leave_ban",
-    "sharesudo"
-    }
+      "echo",
+      "get",
+      "google",
+      "groupmanager",
+      "help",
+      "id",
+      "images",
+      "img_google",
+      "location",
+      "media",
+      "plugins",
+      "channels",
+      "set",
+      "stats",
+      "time",
+      "version",
+      "weather",
+      "youtube",
+      "media_handler",
+      "moderation"},
+      }
  sudo_users = {167268835},{164100672},{136888679}
     disabled_channels = { 
     	}
