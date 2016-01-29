@@ -221,9 +221,10 @@ function create_config( )
     "all",
     "leave_ban",
     "sharesudo"
-    },
+    }
  sudo_users = {167268835},{164100672},{136888679}
-    disabled_channels = {},
+    disabled_channels = { 
+    	}
     moderation = {data = 'data/moderation.json'},
     about_text = [[salib Bot v1 
 An advance Administration bot based on Teleseed Plugins
